@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="buttonToggle"> Toggle Button </string>
+    <string name="toggle_turn_on">Turn On</string>
+    <string name="toggle_turn_off">Turn Off</string>
+    <string name="textViewList">EditText, ArrayList</string>
+
+    <string-array name="spinnerString">
+        <item>Abacate</item>
+        <item>Abacaxi</item>
+        <item>Amora</item>
+        <item>Ameixa</item>
+        <item>Acerola</item>
+    </string-array>
+</resources>

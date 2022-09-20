@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Diga uma fruta"></AutoCompleteTextView>
+
+        <TextView
+            android:id="@+id/buttonView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/buttonToggle"
+            android:textSize="15dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:text="ToggleButton"
+            android:textOff="@string/toggle_turn_off"
+            android:textOn="@string/toggle_turn_on" />
+
+        <TextView
+            android:id="@+id/textViewList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/textViewList"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/editTextList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Adicione algo a lista"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add To List" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="376dp"
+            android:layout_height="106dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_one"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="One" />
+
+            <RadioButton
+                android:id="@+id/radio_two"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Two" />
+
+            <RadioButton
+                android:id="@+id/radio_three"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:text="Three" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonHold"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:text="Hold me"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonToAct2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="Next page" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
